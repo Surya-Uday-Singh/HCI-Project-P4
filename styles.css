@@ -1071,6 +1071,7 @@ dialog#footer-editor-modal[open],
 dialog#edit-intro-modal[open] {
   display: flex;
   flex-direction: column;
+  height: 90vh; 
 }
 
 dialog#event-modal form,
@@ -1081,7 +1082,6 @@ dialog#edit-intro-modal form {
   flex-direction: column;
   flex: 1 1 auto;
   min-height: 0;
-  max-height: calc(90vh - 75px); /* Accounts for header dimensions cleanly */
   overflow: hidden;
 }
 
